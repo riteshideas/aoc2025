@@ -1,5 +1,6 @@
 import sys
 
+
 def volt_search(complete_bank, remaining_bank, current_volts, max_depth):
     if len(current_volts) == max_depth:
         return int(current_volts)
@@ -13,10 +14,9 @@ def volt_search(complete_bank, remaining_bank, current_volts, max_depth):
     for j in range((len(remaining_bank) - volts_required) + 1):
         next_volts.append((j, remaining_bank[j]))
 
-    max_next_volt = max(next_volts, key=lambda v: int(v[1]))[1]
-
-    # Now we get the volt for the lowest J to get the best volt
-    next_volt = min([volts for volts in next_volts if volts[1] == max_next_volt], key=lambda v: v[0])
+    # Sort by the highest volt, then sort by the lowest the J index
+    best_next_volt = sorted(next_volts, key=lambda v: (int(v[1]), -v[0]), reverse=True)
+    next_volt = best_next_volt[0]
 
     return volt_search(complete_bank, remaining_bank[next_volt[0] + 1 :], current_volts + next_volt[1], max_depth)
 
