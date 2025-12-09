@@ -1,5 +1,11 @@
 import sys
 
+"""
+
+Working our way up from the bottom
+Could also use cfs with functools.cache
+
+"""
 
 def main():
     if len(sys.argv) < 2:
