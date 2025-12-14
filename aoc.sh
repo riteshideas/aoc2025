@@ -2,6 +2,14 @@
 # Usage: ./aoc.sh DAY PART
 # Example: ./aoc.sh 2 1   (This runs day02p1.py for Day 2, Part 1)
 
+# 
+# If advanced line-by-line profiling is required, kernprof is preffered
+# 
+# kernprof -l -o profiles/day01p1.lprof day01p1.py
+# And IMPORTANTLY at the top of python file `import line_profiler` and use the `@line_profiler.profile` decorator at the main function (or whatever function to profile)
+# View the results by running : python -m line_profiler -rmt 'profiles\day01p1.lprof'
+
+
 # Ensure two arguments are provided: DAY and PART
 if [ "$#" -lt 2 ]; then
     echo "Usage: $0 DAY PART [--profile]"

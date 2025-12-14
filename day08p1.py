@@ -1,5 +1,11 @@
 import sys
 
+"""
+
+Union-Find data structure
+
+"""
+
 def dist(p1, p2):
     """Euclidean distance between two points"""
     dx = p1[0] - p2[0]
