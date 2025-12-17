@@ -1,156 +1,647 @@
-[.#...#...#] (3,5,7,8) (0,3,4) (0,1,2,3,4,7,9) (0,1,3,4,6,7,9) (1,4,5,6,8) (0,1,6,9) (0,2,3,4,5,7,8,9) (1,2,5,6,7,9) (0,2,3,5,6,7,8,9) (0,2,3,4,5,7,8) {46,36,54,60,41,78,47,75,59,57}
-[.#...#.] (0,1,2,3,4) (0,1,2,3,4,5) (3,5,6) (0,2,4,5) (1,2,5) (3) (0,3,4,5,6) (1,2,4,6) {48,163,178,40,179,32,133}
-[##.##.###] (0,1,3,4,6,7,8) (1,4) (1,2,3,5) (3,7) (0,3,4,7) (0,3,8) (1,5,7) (1,2,3,4,5,6,7,8) {29,156,20,68,149,33,23,61,43}
-[.###.] (1,2,4) (0,2,4) (0,1,3,4) (2,4) {23,23,40,3,43}
-[...####.#.] (1,3,5,9) (0,1,2,3,5,6,7,8,9) (1,2,4,8) (4,6,8,9) (1,2,7) (1,2,7,9) (2,6) (9) (0,2,3,6,7,8,9) (0,1,4,5,6,7) (2,3,5,6,7,8) (2,3,4,5,7,8,9) (4,5,8) {18,56,78,48,75,58,55,52,83,73}
-[..#..###] (0,1,2,3,6) (1) (0,1,2,3,4,7) (3,6) (3,5,6) (0,1,3,5,7) (1,3,5,6) {41,47,33,69,13,24,48,21}
-[##.####...] (3,8) (1,5,7) (1,4,7,8,9) (0,2,3) (0,3,4,7,8,9) (1,2,4,5,6,7,8,9) (0,2,3,4,5,8,9) (0,1,3,4,7) (1,4) {31,56,25,36,50,41,11,48,30,25}
-[#....#..#] (0,1,2,3,4,7) (4,5,8) (1,3) (1,2,8) (2,8) (0,4) (1,2,3,4,5,6,8) (0,2,3,6) (2,3,5,6,7) {28,40,41,45,39,22,21,16,26}
-[.#.#] (0,1,2) (0,2,3) (2,3) (1,3) {12,0,12,12}
-[#...#.] (1,3,4,5) (0,2,3,5) (0,1,2,4) (1,4,5) (1,2,3) {156,17,167,169,6,162}
-[.##..] (0,1) (2,3) (0,1,2,4) (0,2,3,4) (1,2) (0,4) {36,23,36,21,28}
-[.###] (0,1,2) (1,2) (2,3) (0,3) {16,11,13,9}
-[####..#.#] (1) (0,4,6) (0,2,8) (1,8) (0,4,6,8) (0,2,4,5,6,7) (0,1,3,7) (0,1,2,3,4,6,7) (4,5,6,7) (1,2,6,7) {67,51,52,21,62,30,70,59,28}
-[.####] (0,2) (0,2,4) (1,2,3) (1,2,3,4) {187,8,195,8,6}
-[###..#] (1,2,4) (0,1,2,5) (1,2,3,5) (0,2,4,5) {31,167,186,146,28,177}
-[##....#] (0,1,3,4,5,6) (0,1,3,5) (1,2,4) (1,2,3,5,6) (0,2) (1,5) {41,46,44,31,24,32,20}
-[#.#.] (1,2) (1,3) (2,3) (2) (0,3) (0,1,2) {20,51,60,38}
-[#.##..####] (0,2,3,4,5,6,7,9) (1,3) (1,2,3,4,6,7) (2,4) (0,2,4,5,6,9) (4,5,8) (0,3,4,9) (0,1,3,6,7,9) (0,1,4,7,8,9) (1,2,4,6,8) {48,58,62,58,83,12,67,41,21,48}
-[..##] (2,3) (1,2,3) (3) (0,1,3) (0,1) {18,37,37,41}
-[##.#.##.] (0,1,3,4,7) (0,6,7) (3,6) (0,1,2,3,4) (3,4) (0,1,2,3,5,6,7) {211,199,196,234,30,185,216,200}
-[#...#.##] (1,4) (1,2,3,4,6,7) (0,3,4,5,7) (2,5) (0,1,2,4,6) (5) (1,4,5,7) (2,3,4,7) (1,5,6) {15,54,49,34,60,70,33,47}
-[.#.#] (0,2,3) (1,3) {20,12,20,32}
-[#..#.] (4) (0,3) (1,2) (0,2) (0,2,3) (2) {21,13,48,4,9}
-[.######] (2,5) (0,2,3,5) (0,5,6) (4) (0,1,6) {45,18,22,9,18,40,36}
-[##..#.#.#] (3,7) (1,5) (2,3) (0,1,2,3,4,6,8) (0,1,2,3,4,5,8) (6,8) (0,8) (1,2,8) (1,4,5) (0,1,3,5,6,7,8) (1,2,3,4,5,6,7) {37,61,43,33,21,30,26,7,55}
-[#.##] (1,2,3) (0,1,2) (0,2,3) {18,2,18,16}
-[...#] (0,1,3) (0) (0,1) (0,1,2) {46,34,8,15}
-[.###..#.] (0,1,2,3,4,5) (4,7) (5,6) (1,2,3,5,6,7) (0,2,4,7) (1,2,3,6,7) (0,2,5,7) (1,2,3,4,6) (3,4,6,7) (0,2,3,4,7) {29,24,52,165,163,42,163,190}
-[.#.###] (0,1,3,4,5) (3,4,5) (0,2) (1,4,5) (0,2,3) (1,2,4,5) {48,30,31,45,44,44}
-[.....#...] (2,3,5) (1,2,3,5,7) (4) (0,3,4,6,7,8) (0,1,4,5,6,7) (4,5,6,7,8) (0,3,6,8) (0,1,3,4,6,7,8) (0,1,6,8) (1,2,5,8) (5) {63,64,34,57,217,221,225,221,225}
-[#.#.#####] (4,5) (2,4,6,7,8) (3,5,6,8) (1,3,4,7,8) (0,2,4,5,6,7,8) (1,2,3,5,6,7,8) (1,8) (0,2,3,4,5) (0,6,8) {34,15,58,37,54,58,53,45,56}
-[.#..#.] (3) (1,2,3,5) (0,4) (1,2,3) (0,2,4,5) (3,4) (0,1) (0,1,3,4) {190,199,34,195,185,18}
-[##..#.###] (1,2,3,5,6,7) (4,6,8) (3,6,7) (3,5,6) (0,2,4,6,7,8) (0,5,6,7,8) (1,2,5) (0,1,2,4,6,8) (1,2,3,6,8) (0,6,7) {54,41,60,49,46,39,113,59,64}
-[##.#####.#] (1,3,4,5,6,7,8,9) (4,6,7,8,9) (1,2,4,6) (0,3,4,6) (0,2,4,5,6,8) (0,1,2,5,8,9) (0,2,4,9) (0,1,4,5) {199,27,185,28,209,39,57,19,48,184}
-[##..] (0) (0,3) (1,2) (1,2,3) (0,2,3) (0,1) {37,28,14,25}
-[.....##..#] (0,1,3,4,5,7,8,9) (7) (0,2,4,8,9) (0,1,2,5,6,7) (0,1) (0,4,5,9) (6,9) (1,3,5,6,7,8,9) (0,1,2,5,7,9) (2,6) {39,38,37,7,8,34,46,44,8,50}
-[.###.####.] (0,1,2,3,4,5,7,8,9) (4,9) (1,2,5,7,9) (0,1,2,3,5,6,7,8,9) (0,2,4,6,8,9) (2,3,4,6,9) (3,7,9) (8) (3,8) (0,1,4,5,6,7,8,9) (1,5,8) (0,1,3,4,5,8,9) {37,40,38,45,42,40,32,32,63,72}
-[...#.#] (3,5) (0,1,2,5) (1,2) (0,3,4) {12,14,14,10,2,18}
-[.###.] (0,2,4) (0,4) (2,3,4) (0,3) (1,2,3) {11,5,30,29,25}
-[.#..#] (3) (1,3,4) (1) (2,4) (0,3) (0,2) (1,2,3,4) {28,25,43,31,29}
-[##.##.] (0,1,3,4) (2,3,4) (0,1,4,5) (0,2,4,5) (0,1,2,3) (2) (1,3,5) (1) {41,54,43,59,36,17}
-[#.....#] (0,1,3,6) (1,2,3,5) (0,1,2) (0,3,4,5,6) (0,4) {158,34,22,43,142,31,25}
-[.#.#..#.] (0,1,2,4,6,7) (0,1,2,3,4,5) (1,5) (0,1,3,5,6,7) (0,1,2,3,4,5,7) (1,3,6,7) {207,233,190,213,190,221,29,40}
-[.#.##] (0) (0,1) (1,2,3) (1,2,4) (2,4) {120,34,41,9,32}
-[.#.#..##.] (1,2,4,6) (0,1,2,3,6,7,8) (2,3) (1,2,3,4,6,8) (0,7,8) (1,2,5,8) (0,2,5,6,8) {24,18,36,21,12,8,26,16,29}
-[#..###.] (1,2,3,4,5,6) (0,2,4) (0,1,2,4) (3,5,6) (0,2,3,4,5,6) (0,3,5,6) (0,1,2,3,5,6) (4) (0,1,2,3,5) {77,44,66,199,46,199,190}
-[...##..##] (1,2,3,5,6) (0,1,3,4,5,7) (1,2,3,4,5,7,8) (1,2,3,6,8) (0,1,6,7,8) (0,1,2,3,4,5,7) (0,2,3,4,8) (0,1) (1,2,3,4,5,7) (0,3,4,5,6) {75,122,93,109,78,80,57,77,68}
-[.######.] (0,3) (0,3,4,5,7) (0,2,4,7) (2,3,5,7) (2,4) (0,1,2,3,4,7) (1,5,6) (5,6,7) {69,29,62,61,67,57,30,83}
-[##.#.#.#.#] (0,3,4,6,7,8,9) (0,4,5,6,7) (2,4,6) (0,3,5,6) (1,4,5,9) (0,2,3,4,5,6,7,9) (3,5,8) (0,1,2,3,5,6,7,8,9) (1,5) (0,1,2,5,6,7,8,9) (4,8,9) {75,55,56,57,75,97,92,67,89,81}
-[##...] (3) (2,3) (3,4) (0,1,2) (0,3) (1,4) (0,1,4) {25,31,36,35,20}
-[.####...] (1,2,3,4,5,7) (1,4,5,6) (1,7) (1,5,6) (0,2,4,6) (0,3,4) (0,2,4,5,6) (2,5,6,7) (2,3,4,5,6,7) {37,56,77,44,75,87,79,68}
-[..###.#] (1,2,4) (0,1,5) (1,3,5,6) (2,3,4,6) (0,2) (0,2,3,4,5,6) {193,41,194,36,35,47,36}
-[.####.##.] (0,1,4,5,6,8) (0,1,3,4,8) (2,6,7) (2,3,4,5,6,7,8) (0,3,5,6,8) (0,1,2,3,4,6,7,8) (1,3,5,6,8) {37,29,6,39,17,42,48,6,49}
-[.###.] (1,2) (0,1,3) (0,1) (0,1,4) {27,44,17,12,11}
-[#..###..] (1,2,4,6,7) (0,1,4,7) (0,4,5) (0,5,7) (0,2,3,4,5,6) (0,1,3,5,6) (0,3,4,5,6) (2,4,6,7) (0,1,3,4,5,7) (3,7) {64,50,26,50,55,64,42,58}
-[.####.#] (3,5,6) (0,1,4,6) (0,1,2,5,6) (2,4,6) (2,3,4) (0,1,3,4,6) (1) (0,1,2,3) {35,39,33,29,32,5,30}
-[..#######.] (0,1,2,4,5,6,7,8) (3,4,6,8,9) (0,2,3,4,6,7,8,9) (0,1,3,7,9) (0,2,3,4,5,6,7,8) (0,2,4,5,6,7,8,9) (0,1,3,4,6,7,8) (3,5,8) (2,5,6,8) (0,1,2,3,5,6,9) (0,1,4,5,7,9) {63,45,22,67,61,46,45,62,60,57}
-[##.#.] (1,2,4) (0,1,3) (0,1,4) {20,190,170,13,177}
-[####..#.##] (1,4,8) (0,1,3,4,5,6,7,8) (1,3,4,9) (0,1,2,3,7,9) (1,3,4,6,7,8,9) (0,2,4,5,6,8) (0,3,4,5,9) (2,6,7) (0,1,2,4,5,6,7,8,9) (0,1,5) (1,2,8) (8) (2,3,4,5,6,7,8,9) {69,258,242,57,90,67,71,74,262,61}
-[##.#] (0,1) (0,3) (2,3) (1,2,3) {33,27,21,37}
-[#...###.##] (0,1,2,5,8,9) (5,6) (2,3,4,5,7) (3,4,8) (1,4,6,7,8) (1,6,8) (0,1,2,5,6,7,8) (1,2,4,5,7,9) (3,7,9) (2,8) (1,5,8) (0,1,2,3,4,5,6,8,9) (0,4,5,7,9) {71,97,88,63,90,129,70,78,125,64}
-[..##.##.#.] (0,1,2,4,5,6,8,9) (1,2,3,4,5,6,7,9) (0,1,2,5,6,7,8,9) (0,1,2,3,5,8,9) (1,2,7,8) (0,6) (0,1,3,4,5,6,7,8) (0,3,4,5,7,9) (2,9) {79,74,70,46,50,78,52,64,71,74}
-[.#..#...##] (1,3,6,9) (1,3,5,6,7,8,9) (2,3,4,5,7,8,9) (1,3,4,7,9) (1,2,3,4,5,6,9) (0,1,2,3,7,9) (3,6,9) (0,1,2,5,6,8,9) {12,179,160,196,149,168,187,29,24,200}
-[##.###...] (4,5,7,8) (0,4,6,7,8) (3,4,7,8) (1,2,3,6,7,8) (2,3,5,6,7,8) (0,2,6) (0,1,2,5,6,7) (0,1,2,3,7,8) (1,4,5,7) (1,2) {38,38,49,37,47,40,37,76,60}
-[.#.###] (0,1,3,5) (0,4) (2,3) (1,4) (2,3,4) {16,18,13,20,22,7}
-[....#..#] (1,2) (0,2,3,5) (4,7) (3,5,6) (0,7) (0,2,4,5,6,7) (1,2,3,4,5,6,7) (3,4,5,6,7) {27,8,21,31,171,42,40,185}
-[####] (1,2) (1,3) (0,1,2,3) {13,40,21,32}
-[#.#.] (3) (0,2) (0) (0,3) (0,1) (1,3) {51,6,18,31}
-[#.#.####..] (0,2,3,4,9) (1,5,9) (0,2,4,6) (3,5) (0,1,3,7,8,9) (2,5,6) (1,3,4,5,6,8,9) (2,3,7,8) (0,1,4,6,7,8) {48,39,41,65,53,38,40,22,40,54}
-[.#...##] (0,2,6) (0,1,2,4,5) (0,3,4,6) (2,3,4,5,6) (1,2,3,4,5) (2,3,4,6) (1,5,6) {188,50,227,45,61,54,210}
-[.#.#] (1,3) (2,3) (0,2) (0,3) (1) {22,26,21,16}
-[#...##.#.] (0,1,4,8) (1,2,5,6,7) (0,3,4,5,6,8) (1,2,3,7,8) (0,1,2,3,4,5,6,7) (0,6,7,8) (0,1,2,3,4) (1,3,4,5,6,7,8) (4,5,6,8) {42,28,19,20,28,8,25,25,34}
-[....#..#] (1,2,4,6) (1,2,3,5,6,7) (1,3) (0,1,3,4,5,6) (0,2,4,7) (1,2,4,5) (0,1,3,7) (0,1,2,3,4,5,6) (4,5,6,7) {28,193,172,188,18,168,169,174}
-[#..#.##] (0,1,2,3,6) (1,2,4) (3,4,6) (0,1,2,4,5,6) (1,2,5) (0,1,5) (0,1,4,5) (1,2,3,4,6) (0,1,2,3,5,6) {23,44,32,31,49,25,42}
-[#...#...#.] (0,1,3,5,7,8) (0,2,5,6,7,9) (0,1,3,6,7,9) (0,1,2,8) (0,4,8) (1,2,3,5,6) (0,1,2,4,5,6) (6,7,8) (2,9) (0,1,2,3,4,5,9) (7,9) {31,34,22,33,4,20,37,40,5,42}
-[#.#.#.#.] (0,1,5,6,7) (0,5) (0,2,4,5,6,7) (0,2,6,7) (1,2,7) (0,5,6) (0,1,2,3,4,5) (3,4,5,7) {74,43,50,18,36,73,63,65}
-[#..###..#.] (0,1,5,8) (2,3,4,5,7) (0,4,6,9) (7) (0,3,4,7,8,9) (0,2,3,4,9) (0,2,4,5,6,7,8,9) (3,4) (0,1,3,5,6,7,8,9) {41,11,23,37,40,25,21,50,26,39}
-[..#...#..] (1,2,4,5) (2,3,4,5,6,8) (4,8) (0,1,2,4,5,6,7,8) (6,7,8) (0,3,7) (1,2,4,5,6,7,8) (2,6,7,8) (1,2,3,4,5,6,8) (0,1,4,5,7,8) {20,23,31,18,37,23,42,62,58}
-[.#..##] (0,2,4,5) (0,5) (1,3,5) (2,4,5) (1,2,5) (0,1,4) (1,2,3,4) (1,2,4,5) {28,173,163,15,156,176}
-[..##.#.] (3,5) (1,6) (1,4,5) (2,3,5) (0,1,2,4,5) (0,3,4,5,6) (0,1,6) (0,2,3,4,6) {192,198,29,36,34,55,180}
-[.#...] (0,2,3,4) (3) (2,4) (2,3,4) (0,1,3) {20,5,23,39,23}
-[.###.#.#.] (0,1,2,4,5,6,7) (0,1,5,6,8) (3,5,7,8) (1,2,4,8) (0,1,5,8) (2,3,4,7) (3,4,5,6,8) (0,1,2,3,4,6,7,8) {33,46,30,38,48,61,34,28,67}
-[#.#.] (0,2) (0,1,3) {20,15,5,15}
-[##.#] (1) (0,1) (0,2,3) (0,2) (1,3) (0) {175,26,160,156}
-[#.#...] (0,1,2,5) (0,1,2,4,5) (1,3,4) (2,5) (0,1,2,3) (1) (1,4) {32,64,38,23,33,27}
-[##..###] (0,1,2,4,5,6) (0,4,6) (0,1,2,3,4) (3,5) (0,2,3,4,5) (1,5,6) (1,6) {38,43,36,32,38,58,40}
-[#...#...#.] (1,4,6,8,9) (0,1,2,3,8,9) (4,7,8) (1,2,3,5,7) (0,1,2,4,6,7,8) (0,4,6,9) (1,5,8) (1,2,3,5,6,7,8) (0,1,2,3,4,5,8,9) (0,1,2,3,4,5,7,8,9) (1,2,3,5,6,7,8,9) (1,3,8,9) {222,258,228,230,246,216,68,67,272,243}
-[.#.#] (1,3) (0,2) {0,181,0,181}
-[#...#..] (0,1,3,5) (0,2,3,4) (1,2,3,4,5,6) (1,3,5,6) (0,2,3,6) {34,20,19,39,19,20,5}
-[..##..#] (2,3,6) (4,5) (0,2,4,5) (0,1,2,3,5) (0,6) (0,1,3,4) (1,2,3,5) (0,1,3,5) (1,5,6) {63,81,46,70,29,86,31}
-[#.##] (1,2,3) (0,2,3) {8,11,19,19}
-[..#.#.] (0,1) (0,2,4,5) (2,4) (0,1,2,3) (1,2) {33,34,47,7,20,19}
-[##...####.] (0,6,8) (1,3,4,5,6,8,9) (0,1,2,3,4,5,7,8,9) (1,5,7) (2,5,7) (1,2,4,5,6,7,8) (6,7,8,9) (3,4,6,8) {19,41,30,162,166,51,157,39,173,36}
-[...##.] (0,3,5) (0,1,3,5) (0,2) (5) (0,2,3,4,5) (3) (0,1,2,4,5) (3,4,5) {60,7,37,242,24,49}
-[#..#.###.] (0,3,5,6,7) (0,1,2,3,5,7,8) (4,5) (0,1,4,6,7,8) (3,5,7) (0,1,2,6) (0,2,3,4,5,8) {36,26,22,20,25,31,22,24,23}
-[.....#..##] (0,1,2,3,4,7,8,9) (4,5,7,9) (1,2,3,5,6,7,8,9) (0,2,6) (1,4,6,9) (0,7) (1,2,5,6,8,9) (1,2,4,8) (2,3,4,7,8) (0,1,3,5,7,8) (0,1,2,3,5,7,8,9) (0,1,2,3,4,5,6,7,8) (1,5,6,7,8,9) {61,127,89,74,48,100,78,106,123,85}
-[#...#] (2,3,4) (1,4) (0,2,3) (0,4) {22,4,37,37,25}
-[##.#.####.] (1,3,4,7,8) (0,1,2,3,5,6,7,9) (0,3,5) (1,2,3,4,7) (1,5) (3,4) (1,3,4,8,9) (1,5,6,9) (0,1,3,4,5,6,7) (2,7,8) (0,2,5,7) {45,68,47,75,45,72,28,59,19,25}
-[.####] (1,2,3,4) (0,1,2,3,4) (2,4) {19,19,28,19,28}
-[#.##.#] (0,1,2,3) (5) (1,3,4,5) (0,3,5) (0,2,3,5) (2,3,4,5) {25,8,25,45,20,50}
-[..###] (3,4) (0,3) (0,2,3) (0,2,4) (0,1,2,4) (2,3,4) {44,20,49,54,54}
-[.##.#] (0,3) (1,2,4) (0,1,2,3) (1,2,3) (4) (0,2,4) (0,1,3) {49,57,40,64,199}
-[##.#..#..#] (3,6,8) (2,4,9) (1,2,3,4,5,6,7,8,9) (0,4,8) (1,2,4,5,6) (2,4,7,8) (1,3,4,6,8,9) (0,2,3,5,7,8,9) (1,2,4,6,7) (0,4,6,9) (6) (0,2,3,4,5,9) (0,6,7,8) {35,38,57,25,67,35,54,35,28,30}
-[##...#] (0,1,5) (0,1,3,5) (0,2,3,5) (1,3,5) (1,2,3,4) (2,4) {31,44,36,36,25,50}
-[..#.#..] (0,1,2,3,5) (1,3,4,5) (0,2,3,5,6) (0,1,2,6) (2,3,4,5,6) {16,19,36,41,25,41,22}
-[#..##] (2,4) (0,2,3) (0,1,4) {6,5,10,1,14}
-[##..###] (1,3,4,5) (3,4) (3,6) (0,1,2,3,4,6) (0,1,2,4,5) (0,2,4) (0,1,3,4,5) {36,43,28,49,53,28,24}
-[#.###] (0,3) (1,3) (0,1,2) (0,3,4) (0,2,3) {37,25,18,32,3}
-[.###.] (0,1,2) (0,1,4) (0,3) {25,11,2,14,9}
-[..##..] (0,3,4) (0,1,5) (0,1,2,5) (2,5) (0,1,3) (0,3,4,5) {55,30,20,45,25,43}
-[.##.#...] (3,4) (1,2,3) (0,3,4,6,7) (0,3,6,7) (0,1,4,6) (0,1,3) (0,2,3,4,5,6) {42,38,14,41,30,1,33,16}
-[#.#....] (0,3,5,6) (4,6) (0,1,3,5) (0,1,3,4,6) (0,2,3,5) (2,3,4,5) (4,5,6) {60,30,201,241,223,230,52}
-[...#..####] (0,1,3,6,7,9) (1,2,5,6,9) (5,6,8) (3,6,7) (2,5,6,7,9) (0,1,2,3,4,5,6,9) (1,3,4,6,8,9) (0,1,2,4,5,6,7,9) (1,4,6,9) (2,3,5,6,7,8) (0,2,3,6) (3,5,6,8) {59,89,84,93,59,86,149,79,35,97}
-[..#####.] (0,2,3,4,5,7) (2,3,4,5,6) (1,3,4,5,7) (0,1,2,5,6,7) (4,5,6) (0,6,7) (0,1,4,5,7) {34,19,26,33,40,44,43,45}
-[..#.] (0,1,3) (1,2) (2,3) (0,2) (1,3) {28,195,198,23}
-[.####..] (2,4) (3,5) (0,2,5,6) (0,3,4,5,6) (1) (1,2,3,4,5) {26,12,19,24,25,34,26}
-[##..#.#..] (2,4,7) (1,2,3,4,6) (3,8) (0,4,5,6,7,8) (2,4,8) (0,1,2,3,4,6,8) (4,5,8) (1,2) (0,2,5,7) {13,22,53,17,55,7,18,13,38}
-[.###.##] (0,4,5) (0,2,3,4,5) (2,5) (1,2,3,4,5,6) (0,1,2,4,6) (1,2,4,6) (0,1,4,5,6) (0,1,2,6) (2,4) {56,38,82,8,72,50,38}
-[..#.###] (0,1,2,3,4,6) (1,2) (0,1,2,6) (0,1,3,4,5) (1,3,4,6) (0,2,3) {47,57,46,46,31,12,34}
-[.....#] (0,4) (0,2,4,5) (1,4,5) (1,3,5) (0,2,3,4) (4,5) (1,4) {13,43,13,29,54,58}
-[.#...] (0,2,3,4) (3,4) (1,4) (1,2,3,4) (1,3,4) (1,2) {18,62,45,53,68}
-[#.#.#.##.] (0,1,4,5,7) (0,2,3,5,6,7,8) (0,3,5,8) (2,3) (0,2,3,4,5,6,7,8) (0,1,4,5,6,8) (0,1,2,3,4,5,6) (0,1,2,3,5,6) (0,1,5,6,8) (0,1,2,3,5,6,7,8) (2,3,4,5,8) {88,62,55,67,42,90,69,24,55}
-[###.] (1,2,3) (0,1,2) {10,29,29,19}
-[#.##....] (0,3,4,5,6,7) (0,1,2,4) (1,6,7) (0,2,5,6,7) (0,1,3,6,7) (1,2,4,6,7) (3,4,7) (3,4,5,7) {36,37,20,30,26,15,41,54}
-[...###...#] (0,1,3,4,5,6,7,8,9) (3,7,8) (1,2,3,5,6,7,9) (0,2) (0,2,4,5,7,8,9) (1,4,6,8,9) (0,2,3,4,5,6,9) (0,1,2,9) (1,8,9) {50,20,46,33,37,34,30,29,33,44}
-[#.###...] (0,1,2,6,7) (0,3) (0,1,3,4,6) (4,6,7) (1,2,6) (1,5) (2,4) {149,152,18,146,165,1,171,23}
-[.#...##] (0,1,3) (0,2,3,4,5,6) (0,4,5) (4) (0,2,3,4,5) (2,5,6) (1,5,6) (0,1,2,4,6) {55,42,54,39,45,64,55}
-[##.######] (1,2,5,6,7) (0,1,2,6,8) (2,4) (1,2,3,5,6) (0,1,2,3,4,5,7) (0,2,3,5,6,7,8) (0,3,8) (2,3,7) {18,31,54,28,24,33,20,43,5}
-[..#..#..] (1,2,3,4,6,7) (3,5) (0,2,3,6) (2,5) (3,4,5,6,7) (0,2,6) {20,10,42,38,16,36,36,16}
-[####] (0,1,3) (1,2,3) (0,1,2) (0,1) (1,2) (1,3) {22,46,14,23}
-[#.#..###.] (2,3,4,8) (0,1,4,5,8) (0,1,3,4,5,6,7,8) (1,2,3,4,8) (0,4,5,8) (0,2,5,7) (0,2,5,6) (5,6,7,8) {49,39,56,51,61,201,182,178,213}
-[#..####.] (0,1) (0,4,5,6,7) (2,3,5,6) (2,3,4,6,7) (3,6) (1,2,4,5,6,7) (0,1,3,4,5,6,7) (0,3,4,5,6) (1,2,7) (0,1,2,4,5,6) {55,47,43,70,72,72,97,41}
-[#.##..###] (0,3,5,6,7,8) (0,1,2,3,4,5,8) (0,1,4,6,7) (1,5,6,7,8) (2,4,6,8) (0,3,4,7) (0,6,7) {45,56,24,27,47,40,42,45,44}
-[...##..#] (0,3,4,5,6,7) (0,5,6) (0,1,3,5,6,7) (0,2,4,5,6,7) (1,2,3,4,5,7) (0,1,2,3,5,6) {45,15,14,23,15,46,45,22}
-[####.] (0,3,4) (0,4) (0,1,3,4) (3) (2,4) (1,3,4) (0,3) {41,29,18,54,67}
-[#####.##] (0,2,3,4,5,6) (3,7) (0,5,6,7) (0,1,2,5,7) (1,3,6,7) (0,3,4,5,6) (0,1,2,4,6,7) (0,1,4,5) (1,2,3,4,6) {228,224,48,57,234,212,84,42}
-[#.#.] (0,2,3) (0,2) (0,1) (2) (1,3) {24,1,199,14}
-[#...##.#..] (4,6) (0,1,2,3,6,7,8,9) (1,2,3,4,6,8,9) (0,2,4,5,6,7) (1,2,4,7,8) (0,1) (9) (2,3,7) (0,1,3,4,8,9) (0,4,5,6) (0,1,3,4,6,7,8) (3,5,7,8) {56,45,47,209,70,207,65,233,217,16}
-[......#.] (0,1,3,6) (2) (0) (1,3,4,5,6) (0,3) (2,3,4,6,7) (0,1,4,5,7) (0,2,3,4,7) (0,1,2,4,5,7) (0,5,7) {60,41,52,69,65,33,40,49}
-[.#####] (1,3) (1,4) (1,4,5) (0,1,5) (2,4,5) {2,18,20,1,35,25}
-[#..#....#.] (0,3,7,8,9) (1,8,9) (2,3,4,5) (0,1,3,5,6,7,8) (1,2,3,4,6,7,9) (2,7) (3,4) (0,2,4,5,7,8) {33,21,12,48,27,26,20,36,34,14}
-[##..###.] (1,2,3,5) (0,1,2,3,5,7) (1,3,4,5,7) (0,1,5) (1,4,5,6) (2,5) (0,2,3,4,6,7) (0,3,6,7) {39,43,34,47,31,62,39,42}
-[#.#.] (0,2) (0,2,3) (1,3) {23,18,23,28}
-[#.#.####.#] (0,1,4,6) (1,4,7,8,9) (6,7) (1,3,5,6,7,8) (0,1,2) (0,2,4,6,9) (0,2,3,7) (1,3,7) (0,1,2,3,5,7,8) (2,3) {39,46,53,50,30,17,54,52,23,26}
-[#..#.#.#.] (1,2,4,5,6,7,8) (0,2,3,4,6,7,8) (0,2,3,4,7,8) (0,6) (0,1,4,5,6,7) (1,2,3,6,7,8) (2,3,5,7,8) {159,43,190,170,179,53,60,205,190}
-[##....] (0,2,3,5) (2,3,4) (0,4) (1,4) (0,1,2,5) (1,3,5) (0,5) {61,45,24,19,33,55}
-[##..#.#.] (0,1,2,3,4,5) (0,1,2,3,4,7) (0,1,2,5,6) (0,1,2,3,4,5,6,7) (1,2) (1,5,6) (0,3) {49,56,48,34,20,33,25,12}
-[...##.] (2,4) (1,3,4,5) (0,2,4,5) (2) (1) (2,3) (0,4,5) {18,12,48,23,25,22}
-[..#..] (0,2,4) (0,1,3) (0,4) (0,1,2,3) {223,29,196,29,194}
-[#.##...] (0,1,2,3) (1,5) (5) (4,5,6) (1,2,3,5) (0,2) (0,1,2,3,5,6) (1,2,5,6) (1,2,4,5,6) {42,69,65,34,23,75,57}
-[#.##.] (1,4) (0,1,2,4) (0,2,3) (0,1,4) {34,24,26,10,24}
-[#.#..#] (0,1,2,5) (0,2,4) (0,1,3,4,5) (0,1,3) {29,17,17,12,21,14}
-[.#..###..] (6,7) (2,4,8) (1,2,3,4,5) (0,1,3,4) (2,3,6,7,8) (0,1,7) (6) (2,4,5,6,7) (0,7) (0,2,5,7) (1,2,4,5,7,8) {39,45,62,38,64,27,40,66,55}
-[#.#.##] (0,4,5) (3,4) (2,3,4) (0,1,4,5) {37,20,155,155,192,37}
-[.##.##] (0,1,2,3) (0,1,2,4) (1,2,3,5) (2,3) {134,145,153,22,131,11}
-[.#.#] (0,2,3) (1,3) (2,3) {20,164,33,197}
+dfa: nbz qhk kzw
+nzm: ors
+coh: hvt mrm yvu
+grm: jon
+jcu: dco reg
+hgd: zum ets rml
+yqr: gbd you dev oki
+zia: fft gpd
+wgs: mwd
+rma: smb
+pfh: jgr
+kva: wkb elg
+ggl: qcf hvt
+egb: hzs dwx
+nwk: out
+owz: nwk abc
+loe: adu roz vis
+qdw: npt you dev
+esy: pbj gyu nph jeh
+fdg: ykn epk jau
+piz: dxz jbc swk
+bby: pxp
+qcf: enj qhf sav siy tbn ccn
+req: ckp lew
+you: vhr jzm onn muy wsz pba nqx chd uvn fgl leo tvv ajb
+epk: gbd npt dev oki
+ttu: hzs dwx weu dsm
+ajb: knu
+zis: owr wie sdo
+baz: icr xxa
+wof: hht wwo hpk
+yde: aha acu gob
+ugq: bpa
+gxo: muw gcw dca kja
+cnf: swk
+kby: spx suh ats
+qgt: php zqq jva pkm
+oeh: huq ahv gun van
+osl: qcf hvt yvu
+hya: gob szv aha ors acu
+vlc: lfr vfm xsh
+hqt: ptd nid
+ifl: yvu qcf
+nba: ddz hsk are wkt
+gob: xsh vfm lfr
+ckc: zia tub
+biu: qrc
+ekm: wgs mit
+oki: jcu nqx mok uvn pph pfh ajb tvv vhr onn avk jzm vcb muy pba qvl chd ssk leo dnj nno fgl wqz vyw wsz
+ytg: isi thh csk
+fwt: xzk guu obh
+ivc: xog
+pkm: xxa icr
+wux: qcf yvu hvt mrm
+yjo: spx
+zqq: xxa ptd icr
+scc: xsh
+jbc: bby grt
+ssk: ugq rhm
+epo: bgi avt vrq
+hmi: awf
+uhe: xog ble
+dla: yaa shj
+hok: ryk anu qqm mag zes uhe ygh kaj jif syl dla qdf nle vao udl dvq xil
+ors: lfr dhl xsh
+vrt: xsh lfr
+onn: wfl
+xhi: smb
+wol: nqc fga frw
+mfc: wyu hhq
+uku: obh xzk wcz
+vyw: ekm
+tmh: mrm
+lfr: lvh dly ibi yee ywp ksa ogz rog zph fks nnp qnp zsg drv
+vhh: dhl
+rhb: jur cgb
+ovf: dln bvr
+azm: vzw yfz osl bmb
+ken: vso ybh ifl ofa
+for: scc icp
+fuj: nmg zia dls
+scb: ijp ekw
+lme: mod ygu
+cev: til yox axf
+fks: red qip sda
+szv: vfm dhl xsh
+ygf: vnf xvj hgd
+ygu: icr ptd xxa
+zzz: qbf kik
+weh: out
+ljf: xvj ybc
+php: ptd nid
+wsx: rgq
+wnb: snh wct
+suh: vfm
+are: ilu
+qec: yuj lwk tso
+uys: vip
+guu: out
+nkj: loi jfl ejf
+ddw: asd yot owz
+tid: bgi qzw xiv
+dmu: kgk gxo ebz yaa
+ptd: der inq jwg piz klp qag mtj yyf emp foa fgy ift zii lwe ddd gbz
+qhv: dfd tnj vkj
+nmv: mwb vkj dfd
+isi: uba izt mdn xhi
+jau: npt gbd oki
+bhg: vas rnl ora pnt
+mcg: otw mfq
+wkr: dev oki npt gbd
+vis: oih
+kzw: jur
+wwo: ivg acz
+ykn: you oki dev
+oen: hvt
+dsu: ytg cim
+kzx: byq few btc rrz
+mrm: qgx tbn dsu kbc ccn rci crh neh wnb enj sav xur mfc azx qgu qiq qhf apg siy
+ucs: ead rhb
+swk: grt bby
+nvu: hvt qcf
+jon: vhh vlc
+few: out
+vgb: lfr dhl xsh
+gdd: hvt yvu
+osi: jvm zmz ddw
+thh: izt rma uba
+dys: wbu ucs bpf
+vso: hvt mrm qcf
+npt: wqz fgl nno dnj leo ssk chd wsz vyw tvv ajb pfh pph uvn mok jcu nqx biu qvl pba muy vcb jzm avk onn vhr
+dac: epk kbw jau
+izj: mea hmi
+qrc: jxk epv
+vaf: qgt
+ddd: bhg bcj
+pph: jgr rhm ugq
+nfh: qmt csk thh
+qdf: hyp
+ets: out
+xgk: dhl xsh
+boa: hpk hht
+ppr: wof
+ble: lht ugz bpr
+dyg: qmt
+dca: cpe eyi
+hjm: nep yya kik
+zes: hyp uzy
+vgl: hfm
+vkp: mgv iah
+vsh: cts xtl xsp
+rrz: out
+ckp: hsk ddz kqe
+mxe: yuj
+tre: luh
+paz: wwo
+luh: wcg
+bvv: vxi etm
+qzw: fri
+hht: vgl yjo acz kby
+itk: sdc alv tjv
+xyo: hpz axf yox yyn
+xkh: hhq zdi wyu qix
+kgk: muw
+mit: fsf mvk mwd
+qse: lqt lxh wil
+ofa: hvt mrm yvu qcf
+ior: icr ptd nid xxa
+syz: duo
+vrq: rxb pfk fri
+snh: hyg nop vaf sgh
+csk: uba rma izt mdn xhi
+dpw: jur zod
+xwy: lsk bbi
+mvk: tlo itk juq
+wbu: rhb
+otw: loi tcv
+gpd: vrt scc
+xog: ugz lht bpr bvv
+nbr: byq few
+hzt: wsx fms
+sda: tdh bye eif ggl
+byq: out
+gbd: uvn pph mok jcu nqx ajb tvv pfh onn avk jzm vhr pba qvl biu vcb muy chd ssk wqz leo nno dnj vyw wsz
+rhj: paz
+kaj: dfa zzp jky ost
+zsg: rwo sqf xyg
+reg: hoi epv
+oee: bne
+jha: gyu jeh
+chd: wfl
+yyf: poh zzz hjm
+wil: ahz
+dfd: oki you gbd npt
+mfj: bgi vrq xiv
+fri: vyd
+qvl: jgr
+oyd: vfm lfr dhl
+smg: oki dev you gbd
+bco: amy kzx
+ats: dhl vfm
+cqs: lfr
+tzw: oen gnu qxh gdd
+rwc: mrp jbc
+iwx: qlz bss awf
+dnj: reg qrc dco
+ibi: vrm elg
+dly: ykj qip sda
+jur: izj hfj tid epo ckc gwu eei syz tlb
+ast: php jva zqq uxg
+rnl: ngy eiq
+zzp: kzw hed lfk qhk
+nkp: tnj vkj
+viz: mvk
+hpz: ptd
+qip: eif bye
+rwo: pth
+mwb: gbd npt
+qiq: vsh vca
+prl: kzw lfk qhk
+flo: dhl lfr
+lkz: hhx
+siy: sce
+xtl: xlz guz
+kgu: qtw ura wkr smg bwf
+uun: out
+gyu: ldh ttu
+nep: mfq gvg
+bpr: qec etm mxe
+ltr: gbd npt oki dev
+svr: yxc gwm hok
+avk: sdn zpz vvt zhw
+xyg: krb wcg
+boh: nmv qhv nkp
+rgo: jdt rhb ead
+jva: xxa nid
+tni: nmg tub zia dls
+nei: vfm
+izd: mvp kgx scb sjc
+qpy: rwo sqf
+qtw: dev oki
+izt: lrw baz smb
+jdt: zod cgb jur
+ewt: iwx mea auv
+lwe: bcj
+qag: sjc
+hgv: osi bws hhx
+sce: sdo
+cts: guz hqt
+vzw: hvt mrm qcf
+lrw: nid icr xxa
+ivg: fzd suh spx
+gun: tzw eia
+ebz: muw kja
+abc: out
+apg: lkf vsh sif
+xlz: xxa nid ptd icr
+see: bmi
+sdn: bsl rob
+cai: van huq
+lrg: qtw bwf wkr smg
+vsy: gfb weh uun
+acu: vfm xsh
+bwf: gbd npt you dev oki
+sdo: nid ptd xxa
+mfp: qip
+dls: gpd fft
+nsc: ivf
+vhr: mxw dco
+ldh: dpw hzs weu
+vwg: paz
+yfz: hvt
+rci: nfh dyg nqt
+bbi: qcf mrm yvu
+xkj: weh
+juq: tjv alv sdc
+kqe: gik clq ilu
+jxk: bco
+inq: zzz hjm poh
+nqx: ekm aet uyh
+blj: ior mod rgi
+udl: jha var esy vqa zex
+mok: vvt sdn
+fsf: juq tlo hgf
+qwi: mwb dfd
+ora: ngy eiq
+sav: zis mbp
+axf: nid ptd
+kik: otw
+cxl: azm
+nbz: jur
+zmz: vkp okc owz
+zum: out
+eei: boa paz
+nhm: uun gfb
+shj: gcw
+sow: lsk
+byv: ybh ofa
+anu: isj xog
+tso: zod jur cgb
+xdr: osl vzw
+jky: hed kzw qhk nbz
+klc: xdr fol
+vas: eiq gys
+ykj: bye tdh
+dsm: zod jur cgb
+van: tzw azs fkq
+rux: bby grt mgw
+nnp: vrm wkb elg
+klp: kgx scb
+pth: coh jpj nvu wmz tmh
+ekw: fga frw
+xsh: fks mfp vlq kva kqb gtw drv qnp
+hyp: fvp nba lew
+hde: bvv bpr ugz
+weu: jur
+nmg: gpd
+yvu: crh ruf rci ccn xkh kbc dsu qgx tbn sav enj wnb neh azx mfc xur siy apg qhf qiq qgu
+nno: zpz zhw vvt
+gwu: dln bvr
+vlq: sqf rwo
+lxh: ahz lme blj
+bcj: vas
+kgx: ggc ekw wol
+tus: pkm php jva zqq
+fft: icp ymx vrt vgb scc
+ahv: eia azs tzw fkq
+hgf: esi tjv
+dhl: tre ibi fks lvh qpy cai kqb oeh ywp
+vcb: reg qrc dco mxw
+yuj: jur cgb
+emp: mvp
+nbj: obh wcz eot
+muw: mao cpe eyi ybf
+nvy: vso ifl ybh
+yvt: ljf llb eoc
+auv: dxq qlz awf
+jns: ucs
+smb: ptd
+icp: lfr vfm dhl
+lvh: vrm
+wct: hyg nop vaf
+foa: fms
+gik: jur zod
+ugz: etm
+hhq: dog xzr bne xyo
+qdc: eoc
+pnt: gys ngy
+hed: zod
+acz: fzd
+lqt: lme ahz
+ujd: qwi
+xiy: vso ybh ifl
+qlz: oyd nei cqs
+ssl: yvu
+jeh: egb ttu ldh
+wkw: vlc
+ubb: guz hqt
+dev: onn wsz vcb biu mok ssk uvn chd fgl nno dnj leo
+vca: xsp xtl cdb ubb
+uvn: zpz zhw vvt
+zph: zok yvz
+pyk: vhh
+hsk: clq gik
+kja: ybf cpe mao
+jgr: wkf bjz bpa yvt
+der: nkp
+kbw: dev you
+fkq: gdd qxh gnu
+ijq: sgh vaf
+dgy: uxg jva
+bss: wfz flo oyd
+avt: fri pfk grm rxb
+bne: axf
+yya: nkj
+xur: sce mbp
+mxw: hoi epv
+qhd: lxh
+eot: out
+rml: out
+huq: fkq azs tzw
+ost: hed kzw qhk nbz
+fgy: scb
+jif: xog isj hde
+azx: dyg cim nfh ytg
+wqz: wfl loe
+uxg: nid xxa
+zok: lsk bbi
+fbt: uun gfb
+xiv: hsb
+icr: pyl inq cnf boh hzt gbz klp piz aoz pkd
+qbf: nkj otw mfq
+qmt: uba
+rgq: gys
+bpf: jdt
+llb: vnf ybc
+vvt: bsl
+gys: you oki gbd npt
+yyn: ptd nid xxa
+adu: oih
+owr: nid icr ptd xxa
+xil: hde ble
+ybc: rml ets zum
+cdb: xlz hqt guz
+rva: guu obh wcz
+yvz: wux
+mkh: fwt nbj
+gtd: xgk vlc
+vkj: oki dev gbd
+qhf: zis
+fka: adu uys vis
+til: ptd icr xxa
+pkd: bhg wsx bcj
+jzm: aet ekm
+jbt: req
+knu: hhx bws
+syl: zex esy var jha
+clq: cgb
+qix: xyo xzr cev
+yee: xwy sow zok
+zdi: dog
+ddz: gik clq
+qhk: cgb jur
+tbn: qhd qys qse
+vfm: qpy fks zph ogz nnp oeh qnp gtw drv lvh ibi dly ywp yee cai
+bjz: eoc ljf llb
+xpa: njk nbr hcw
+lus: eia
+dln: hya
+uba: lrw
+iah: out
+mfq: ltr ejf
+ura: dev you npt
+ygh: zzp dfa prl ost
+sif: xtl xsp cts cdb ubb
+nid: der jwg pyl inq klp piz izd pkd boh hzt emp mtj qag fgy see foa rwc lwe aoz ift gbz ddd
+fga: yqr qdw caw uud
+ift: qhv nkp
+dfi: gfb weh
+ogz: sow zok xwy yvz
+pfk: wkw pyk jon gtd
+alv: out
+leo: fka
+fzd: xsh lfr vfm
+uyh: wgs viz mit
+vxi: tso lwk
+wkf: ygf eoc ljf
+ywp: lus
+loi: you oki dev
+bsl: mkh jmw
+qys: lxh
+xzr: yyn hpz axf yox
+spx: xsh
+mbp: owr wie
+wkt: gik
+qgu: ijq
+rhm: bjz wkf qdc
+gvg: ltr tcv jfl loi
+obh: out
+bpa: llb ygf
+oih: nhm dfi vsy
+ymx: vfm lfr xsh
+lsk: yvu
+nqt: isi qmt
+hcw: few rrz btc
+wcz: out
+sqf: wcg pth krb
+ruf: wct ijq snh
+tdh: qcf hvt yvu
+rob: mkh ivf
+wcg: jpj nvu wmz coh
+fvp: ddz kqe are
+eoc: xvj
+sdc: out
+saq: fol
+lkf: xsp xtl cts ubb
+muy: aet ekm
+ijp: fga
+grt: lrg
+poh: qbf kik mcg
+nph: ttu
+ryk: zex
+qnp: cxl
+zii: swk mrp jbc rux
+jvm: asd owz
+etm: lwk tso yuj
+hoi: bco xpa kqt
+duo: yde nzm
+bmi: epk
+azs: gdd qxh
+zod: tni hfj rhj ewt pma dbc syz fuj gwu epo vwg
+dxq: oyd nei cqs flo wfz
+lcw: kbw epk jau
+gcw: cpe
+hpk: yjo kby vgl ivg
+nqc: qdw uud yqr
+mdn: lrw smb baz
+hhx: jvm zmz
+sxj: out
+hvt: dsu qiq nvm apg ruf
+dwx: jur zod
+pba: hgv lkz
+tnj: npt gbd dev oki you
+esa: yya mcg
+jmw: uku nud nbj
+isj: bvv lht
+ybf: jur
+eyi: jur cgb zod
+hyg: scl tus
+wmz: yvu qcf
+bye: qcf yvu mrm
+red: ggl eif tdh ssl
+ggc: nqc
+fym: gxo shj kgk ebz
+mgv: out
+tlo: esi tjv
+lwk: zod
+aoz: zzz hjm esa poh
+gwm: anu ryk dmu qqm uhe zes dys jif kaj jbt qdf dla jns dvq fym vao ivc udl
+gtw: vrm wkb
+sgh: tus dgy
+ilu: zod jur cgb
+dbc: iwx hmi
+ybz: lxh wil
+xvj: zum
+hfj: zia
+krb: nvu
+vqa: pbj nph
+yaa: muw kja dca gcw
+elg: ken byv
+btc: out
+hsb: gtd vyd pyk
+scl: jva
+jwg: bmi fdg lcw dac
+bvr: yde hya
+cgb: fuj vwg ban tlb eei dbc syz ovf pma hfj ndm ckc gwu tid epo mfj ewt izj ppr rhj tni
+hzs: cgb
+rxb: vyd wkw jon gtd
+awf: nei wfz flo
+ahz: rgi mod ygu
+kqt: hcw amy njk
+cim: csk thh
+vnf: ets
+bmb: qcf
+nvm: ybz qhd
+mtj: dac lcw bmi
+caw: npt
+njk: btc rrz few byq
+mea: qlz
+rgi: icr
+ejf: you gbd npt
+ivf: rva uku nbj
+lfk: zod jur cgb
+bnb: nhm fbt
+mwd: juq hgf
+vip: xkj vsy nhm
+pxp: qtw bwf ura wkr smg
+mrp: bby mgw
+qgx: hhq oee qix
+wfz: xsh
+ybh: hvt mrm
+tjv: out
+kbc: sif vca vsh lkf
+eia: gnu gdd
+xxa: jwg ujd pyl inq boh piz izd pkd fgy foa emp yyf mtj qag gbz ddd aoz ift zii
+gnu: qcf mrm
+aha: vfm xsh
+pbj: ldh ttu
+neh: oee wyu qix hhq
+fms: rnl
+gbz: poh zzz
+wkb: nvy ken byv xiy
+tcv: gbd npt oki dev you
+uud: you oki dev npt gbd
+asd: nwk abc
+pma: tub
+nop: scl dgy qgt ast
+ead: zod
+utv: owz yot okc asd
+tub: fft gpd for
+esi: out
+nud: eot
+roz: vip bnb
+bgi: grm fri
+nle: zex vqa
+eiq: dev you
+jpj: hvt qcf
+yot: abc iah mgv
+zex: jeh gyu pbj
+ndm: dln duo
+zhw: pka
+wyu: xzr
+qqm: req hyp uzy
+epv: kqt
+dco: epv
+qxh: qcf hvt mrm yvu
+tlb: wof paz boa
+dvq: jha zex esy
+wie: ptd
+yox: icr
+ksa: van gun ahv huq
+skr: mrm hvt
+mao: cgb
+ban: auv mea hmi
+frw: uud qdw
+vao: prl zzp dfa
+zpz: rob bsl nsc pka
+vyd: xgk
+eif: mrm yvu qcf
+cpe: zod jur
+aet: viz
+enj: snh
+dxz: mgw
+mvp: ekw wol ggc
+var: nph gyu
+mgw: lrg pxp kgu
+lht: vxi qec etm
+mag: ucs wbu rgo
+pyl: nkp qwi nmv
+drv: klc cxl saq
+mod: nid icr xxa
+amy: rrz byq
+dog: yox
+wfl: vis uys
+bws: utv jvm
+wsz: ekm uyh
+tvv: wfl
+yxc: ryk dmu anu qqm uhe mag jbt jif qdf jns ivc fym dvq nle xil
+hfm: vfm lfr dhl
+crh: qse qys
+kqb: cxl saq
+okc: sxj iah mgv abc
+fol: skr yfz osl
+xsp: xlz guz
+sjc: ekw ijp
+pka: mkh ivf jmw
+rog: zok xwy yvz
+guz: xxa ptd icr
+ngy: dev oki you npt gbd
+xzk: out
+gfb: out
+fgl: lkz knu hgv
+vrm: nvy xiy
+jfl: gbd npt oki you
+ccn: qse
+lew: ddz
+uzy: lew ckp nba
